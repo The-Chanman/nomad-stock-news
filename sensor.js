@@ -12,7 +12,7 @@ let base = 'http://erddap.exploratorium.edu:8080/erddap/tabledap/explorebeaconba
 
 function buildUrl() {
   const d = new moment()
-  const hourAgo = d.subtract(2, 'h')
+  const twohourAgo = d.subtract(2, 'h')
   const timeString = hourAgo.toISOString()
   const url = `${base}${timeString}`
   const encoded = encodeURI(url)
