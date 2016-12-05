@@ -47,7 +47,12 @@ nomad.prepareToPublish().then((n) => {
   return instance.publishRoot('hello')
 }).then(() => {
   setInterval(() => {
-    getMessage().then(m => return instance.publish(m))
+    getMessage().then(m => {
+      instance.publish(m)
+      .catch(err => {
+        console.log(`Error: ${err}`)
+      })
+    })
     .catch(err => {
       console.log(`Error: ${err}`)
     })
