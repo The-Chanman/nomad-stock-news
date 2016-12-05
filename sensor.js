@@ -23,7 +23,7 @@ function transform(json) {
   transformed['columnNames'] = json.table.columnNames
   transformed['columnTypes'] = json.table.columnTypes
   transformed['columnUnits'] = json.table.columnUnits
-  transformed['data'] = json.table.rows[0]
+  transformed['data'] = json.table.rows[(json.table.rows.length-1)]
   return transformed
 }
 
