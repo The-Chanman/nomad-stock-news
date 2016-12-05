@@ -4,7 +4,7 @@ const nomad = new Nomad()
 const fetch = require('node-fetch')
 
 let instance = null
-const frequency = 60 * 60 * 1000
+const frequency = 5 * 60 * 1000
 
 // parse into url object 
 let base = 'http://erddap.exploratorium.edu:8080/erddap/tabledap/explorebeaconbay5min.json?time,Temperature_1,Air_Pressure,Temperature_2,Relative_Humidity,Dew_Point,O3_1,CO_1,NO2_1,O3_Working_2,O3_Auxiliary_2,CO_Working_2,CO_Auxiliary_2,NO_Working,NO_Auxiliary,NO_Auxiliary_2,NO2_Working_2,NO2_Auxiliary_2,Particulate_high,Particulate_total,Particulate_pct,CO2,Temperature_3,station_id,latitude,longitude&time>='
