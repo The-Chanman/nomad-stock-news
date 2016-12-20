@@ -1,22 +1,22 @@
 {
-  "name": "stock-quotes",
-  "nomadName": "stock-quotes",
+  "name": "stock-news",
+  "nomadName": "stock-news",
   "version": "1.0.0",
-  "description": "stock quotes from APPLE, YAHOO, GOOGLE",
+  "description": "stock news from APPLE, YAHOO, GOOGLE",
   "main": "sensor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/The-Chanman/nomad-stock-quotes.git"
+    "url": "git+https://github.com/The-Chanman/nomad-stock-news.git"
   },
   "author": "Eric Chan <echan@ideo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/The-Chanman/nomad-stock-quotes/issues"
+    "url": "https://github.com/The-Chanman/nomad-stock-news/issues"
   },
-  "homepage": "https://github.com/The-Chanman/nomad-stock-quotes#readme",
+  "homepage": "https://github.com/The-Chanman/nomad-stock-news#readme",
   "dependencies": {
     "moment": "^2.16.0",
     "node-fetch": "^1.6.3",
