@@ -1,22 +1,22 @@
 {
-  "name": "exploratorium-sf-beacon-bay",
-  "nomadName": "exploratorium-sf-beacon-bay",
+  "name": "stock-quotes",
+  "nomadName": "stock-quotes",
   "version": "1.0.0",
-  "description": "San Francisco Bay BEACON sensor (Bay Side)  at the Exploratorium. Sourced from http://erddap.exploratorium.edu:8080/erddap",
+  "description": "stock quotes from APPLE, YAHOO, GOOGLE",
   "main": "sensor.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IDEO-coLAB/nomad-sensor-hello.git"
+    "url": "git+https://github.com/The-Chanman/nomad-stock-quotes.git"
   },
   "author": "Eric Chan <echan@ideo.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IDEO-coLAB/nomad-sensor-hello/issues"
+    "url": "https://github.com/The-Chanman/nomad-stock-quotes/issues"
   },
-  "homepage": "https://github.com/IDEO-coLAB/nomad-sensor-hello#readme",
+  "homepage": "https://github.com/The-Chanman/nomad-stock-quotes#readme",
   "dependencies": {
     "moment": "^2.16.0",
     "node-fetch": "^1.6.3",
